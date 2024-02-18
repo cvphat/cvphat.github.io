@@ -1,9 +1,114 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Example</title>
+        <title>Phat's Resume</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is a resume of Cao Vinh Phat">
+        <meta name="keywords" content="cvphat, Cao Vinh Phat, Phat's Resume">
+        <meta name="author" content="Phat Cao">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/material-icons@1.13.12/iconfont/material-icons.min.css"> -->
+        <link rel="stylesheet" href="/style.css"></script>
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    clifford: 'red',
+                  }
+                }
+              }
+            }
+          </script>
     </head>
     <body>
-        <p>This is an example of a simple HTML page with one paragraph.</p>
+        <div class="viewport">
+            <p class="name">Phat Cao</p>
+            <div class="mb-2">
+                <i class="fa-brands fa-linkedin icon-size">
+                    <a href="https://linkedin.com/in/cvphat" target="_blank">linkedin.com/in/cvphat</a>
+                </i>
+                <i class="fa-brands fa-github icon-size">
+                    <a href="https://github.com/cvphat" target="_blank">github.com/cvphat</a>
+                </i>
+            </div>
+            <div class="mb-8 text-sm">
+                <p>cvphat@hotmail.com</p>
+                <p>Tan Chanh Hiep Ward, District 12, Ho Chi Minh City</p>
+            </div>
+            <div class="mb-8">
+                <h1>Full Stack Developer</h1>
+                <p>
+                    4-year Full-Stack Developer adept in various technologies, readily adapting to project requirements. Possesses strong expertise in ReactJS, ExpressJS, AngularJS, Serverless and Flutter app development, contributing to successful project delivery and user satisfaction.
+                </p>
+            </div>
+            <div class="mb-8">
+                <p class="text-2xl">Skills</p>
+                <p>
+                    <span class="font-bold">Languages:</span>
+                    <span >Javascript, Dart, C#, Java</span>
+                </p>
+                <p>
+                    <span class="font-bold">Front-End Development:</span>
+                    <span >HTML5, CSS3</span>
+                </p>
+                <p>
+                    <span class="font-bold">Databases:</span>
+                    <span >PostgresSQL, DynamoDb</span>
+                </p>
+                <p>
+                    <span class="font-bold">Frameworks:</span>
+                    <span >ReactJS, Flutter, ExpressJS, AngularJS</span>
+                </p>
+                <p>
+                    <span class="font-bold">Miscellaneous:</span>
+                    <span >Node.js, OOP, RESTful Architecture, MVC, Git, AWS, Salesforce</span>
+                </p>
+            </div>
+            <!-- <div class="mb-8">
+                <h1>Projects    </h1>
+                
+            </div> -->
+            <div class="mb-8">
+                <p class="text-2xl">Experiences </p>
+                <div class="mb-4">
+                    <h1>Full Stack Developer, Jan 2020 - Present</h1>
+                    <!-- <p>TMA Solutions</p> -->
+                    <ul class="pl-5 list-dash">
+                        <li>Reactjs Project </li>
+                        <li>AWS Cloud </li>
+                        <li>Flutter app </li>
+                        <li>Angular </li>
+                        <li>Sequelize </li>
+                    </ul>
+                </div>
+                <div class="mb-4">
+                    <h1>CRM Developer, Dec 2018 - Dec 2021</h1>
+                    <!-- <p>TMA Solutions</p> -->
+                    <ul class="pl-5 list-dash">
+                        <li>Salesforce project </li>
+                        <li>Dynamic CRM project </li>
+                    </ul>
+                </div>
+                <div class="mb-4">
+                    <h1>C# Developer, May 2018 - Dec 2018</h1>
+                    <!-- <p>TMA Solutions</p> -->
+                    <ul class="pl-5 list-dash">
+                        <li>.NET MVC</li>
+                        <li>Entity Framework</li>
+                        <li>SQL Server</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mb-8">
+                <p class="text-2xl">Education</p >
+                <h1>The Degree Of Engineer: Information Technology, 2019</h1>
+                <h3>Can Tho University</h3>
+            </div>
+        </div>
     </body>
 </html>
